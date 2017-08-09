@@ -1,0 +1,39 @@
+body {
+    font-family: 'Merriweather';font-size: 22px;
+}
+
+.portfolio {
+    padding: 2x 2x
+}
+
+div.project { 
+    color: aquamarine;
+    text-align: center;
+    display: inline-flex;
+    text-decoration: none;
+    border-width: 1px;
+	border-style: solid;
+	border-color: darkgoldenrod;
+    font-size : 70%;
+    width: 30% ;
+}
+
+
+
+div.project a {
+    text-decoration: none;
+    color : brown
+}
+
+div.project:hover{
+border-color: #000;
+}
+
+
+div.project img {
+
+    border-width: 0px;
+    width: 100%;
+
+    height: auto;
+}
