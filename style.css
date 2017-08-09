@@ -7,13 +7,13 @@ body {
 }
 
 div.project { 
-    color: aquamarine;
+    color: cornflowerblue;
     text-align: center;
     display: inline-flex;
     text-decoration: none;
     border-width: 1px;
 	border-style: solid;
-	border-color: darkgoldenrod;
+	border-color: transparent;
     font-size : 70%;
     width: 30% ;
 }
@@ -26,7 +26,7 @@ div.project a {
 }
 
 div.project:hover{
-border-color: #000;
+border-color: darkgoldenrod;
 }
 
 
