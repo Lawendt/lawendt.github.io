@@ -19,20 +19,24 @@ div.project {
     text-align: center;
     display: inline-block;
     text-decoration: none;
+/*
     border-width: 10px;
 	border-style: solid;
 	border-color: #EEEEEE;
+*/
+    
+    border-radius: 5px;
     
 
     font-size : 17px;
     width: 70%;
     
-    padding-right: 15px;
-    padding-bottom: 25px;
-    background-color: #2F2E2E;
+
+    background-color: #EEEEEE;
     
 	
     align-self: left;
+    padding-bottom: 10px;
 }
 
 #projectL {
@@ -41,36 +45,44 @@ div.project {
 }
 
 #titleRight {
-    text-align: right;
+    text-align: left;
     display: inline-block;
-    vertical-align: middle;
-    width: 80%;
+    width: 53%;
     color : #2F2E2E;
 }
 
 #titleLeft {
-    text-align: left;
+    text-align: right;
     display: inline-block;
-    vertical-align: middle;
-    width: 80%;
-    color: #EEEEEE;
+    width: 53%;
+    color: #2F2E2E;
 }
 
 #dateRight {
-    text-align: right;
+    text-align: left;
     display: inline-block;
-    vertical-align: middle;
-    width: 15%;
-    color: #EEEEEE;
+    width: 45%;
+    color: #2F2E2E;
+    
+    padding-left: 3px;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: #2F2E2E;
+
 
 }
 
 #dateLeft {
-    text-align: left;
+    text-align: right;
     display: inline-block;
-    vertical-align: middle;
-    width: 15%;
+    width: 45%;
     color: #2F2E2E;
+    
+    padding-right: 3px;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #2F2E2E;
+
 }
 
 div.project p {
@@ -80,7 +92,7 @@ div.project p {
     width: 45%;
     padding-right: 5px;    
 
-    color: #EEEEEE;
+    color: #2F2E2E;
 }
 
 div.project #pl {
@@ -104,11 +116,11 @@ border-color: darkgoldenrod;
 
 div.project img {
     display: inline-block;
-    border-color: #EEEEEE;
+    border-color: #2F2E2E;
     border-width: 0px;
     border-style: solid;
 
-    border-radius: 5px;
+    border-radius: 10px;
     width: 50%;
     
     vertical-align: middle;
