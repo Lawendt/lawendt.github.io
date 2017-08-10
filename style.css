@@ -1,12 +1,20 @@
+
+
 body {
-    font-family: 'Merriweather';font-size: 22px;
+    font-family: 'Merriweather';
+    font-size: 22px;
+    background-color: #2F2E2E;
+    color: #7AC2BA;
 }
 
 .portfolio {
-    padding: 2x 2x
+    padding: 2x 2x;
+    margin : auto;
+    text-align:center;
 }
 
 div.project { 
+    
     color: cornflowerblue;
     text-align: center;
     display: inline-block;
@@ -14,9 +22,12 @@ div.project {
     border-width: 1px;
 	border-style: solid;
 	border-color: transparent;
-    font-size : 70%;
-    width: 30% ;
-	vertical-align: middle;
+    font-size : 13px;
+    width: 400px;
+	vertical-align: top;
+    align-self: center;
+    padding-left:15px;
+    padding-right:15px;
 }
 
 
