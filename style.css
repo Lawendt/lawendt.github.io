@@ -39,35 +39,33 @@ div.project {
     padding-bottom: 10px;
 }
 
-#projectL {
-    background-color: #EEEEEE;
-    
-}
+
 
 #titleRight {
     text-align: left;
     display: inline-block;
-    width: 53%;
+    width: 50%;
     color : #2F2E2E;
 }
 
 #titleLeft {
     text-align: right;
     display: inline-block;
-    width: 53%;
+    width: 50%;
     color: #2F2E2E;
 }
 
 #dateRight {
     text-align: left;
     display: inline-block;
-    width: 45%;
+    width: 43%;
     color: #2F2E2E;
     
     padding-left: 3px;
     border-left-width: 2px;
     border-left-style: solid;
     border-left-color: #2F2E2E;
+    
 
 
 }
@@ -75,7 +73,7 @@ div.project {
 #dateLeft {
     text-align: right;
     display: inline-block;
-    width: 45%;
+    width: 43%;
     color: #2F2E2E;
     
     padding-right: 3px;
@@ -93,6 +91,7 @@ div.project p {
     padding-right: 5px;    
 
     color: #2F2E2E;
+    font-family: "Trebuchet MS";
 }
 
 div.project #pl {
@@ -104,13 +103,13 @@ div.project #pl {
 
 
 div.project a {
+    display: run-in;
     text-decoration: none;
     color : #FF6138
 }
 
 div.project:hover{
-border-color: darkgoldenrod;
-    
+background-color: #dd4a4a
 }
 
 
@@ -123,10 +122,20 @@ div.project img {
     border-radius: 10px;
     width: 50%;
     
+    
     vertical-align: middle;
     height: auto;
 }
 
 div.project #imgl {
     border-color: #2F2E2E;
+}
+
+@media only screen and (orientation: portrait)  {
+    div.project {
+         width: 100%;
+    }
+    div.project img {
+        width: 90%;
+    }
 }
