@@ -138,4 +138,7 @@ div.project #imgl {
     div.project img {
         width: 90%;
     }
+     div.project p {
+        width: 90%;
+    }
 }
