@@ -11,41 +11,110 @@ body {
     padding: 2x 2x;
     margin : auto;
     text-align:center;
+   
 }
 
 div.project { 
     
-    color: cornflowerblue;
     text-align: center;
     display: inline-block;
     text-decoration: none;
-    border-width: 1px;
+    border-width: 10px;
 	border-style: solid;
-	border-color: transparent;
-    font-size : 13px;
-    width: 400px;
-	vertical-align: top;
-    align-self: center;
-    padding-left:15px;
-    padding-right:15px;
+	border-color: #EEEEEE;
+    
+
+    font-size : 17px;
+    width: 70%;
+    
+    padding-right: 15px;
+    padding-bottom: 25px;
+    background-color: #2F2E2E;
+    
+	
+    align-self: left;
+}
+
+#projectL {
+    background-color: #EEEEEE;
+    
+}
+
+#titleRight {
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+    color : #2F2E2E;
+}
+
+#titleLeft {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+    color: #EEEEEE;
+}
+
+#dateRight {
+    font-size = 80%
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15%;
+    color: #EEEEEE;
+
+}
+
+#dateLeft {
+    font-size = 80%
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15%;
+    color: #2F2E2E;
+}
+
+div.project p {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    padding-right: 5px;    
+    padding-left: 5px;
+    color: #EEEEEE;
+}
+
+div.project #pl {
+    color : #2F2E2E;
 }
 
 
 
 div.project a {
     text-decoration: none;
-    color : brown
+    color : #FF6138
 }
 
 div.project:hover{
 border-color: darkgoldenrod;
+    
 }
 
 
 div.project img {
-
+    display: inline-block;
+    border-color: #EEEEEE;
     border-width: 0px;
-    width: 100%;
+    border-style: solid;
 
+    border-radius: 5px;
+    width: 50%;
+    
+    vertical-align: middle;
     height: auto;
+}
+
+div.project #imgl {
+    border-color: #2F2E2E;
 }
