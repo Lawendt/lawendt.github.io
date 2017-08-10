@@ -57,7 +57,6 @@ div.project {
 }
 
 #dateRight {
-    font-size = 80%
     text-align: right;
     display: inline-block;
     vertical-align: middle;
@@ -67,7 +66,6 @@ div.project {
 }
 
 #dateLeft {
-    font-size = 80%
     text-align: left;
     display: inline-block;
     vertical-align: middle;
