@@ -1,64 +1,52 @@
-
-
 body {
-    font-family: 'Merriweather';
-    font-size: 22px;
-    background-color: #2F2E2E;
-    color: #7AC2BA;
+    font-family: 'Merriweather';font-size: 22px;
 }
 
 .portfolio {
     padding: 2x 2x;
-    margin : auto;
-    text-align:center;
-   
+    text-align: center;
+    align-content: center;
+
 }
 
 div.project { 
-    
+    margin-left: 20px;
+    margin-right: 20px;
+    color: cornflowerblue;
     text-align: center;
     display: inline-block;
     text-decoration: none;
-/*
-    border-width: 10px;
+    border-width: 1px;
 	border-style: solid;
-	border-color: #EEEEEE;
-*/
-    
-    border-radius: 5px;
-    
-
-    font-size : 17px;
-    width: 70%;
-    
-
-    background-color: #EEEEEE;
-    
-	
-    align-self: left;
-    padding-bottom: 10px;
+	border-color: transparent;
+    font-size : 70%;
+    width: 30% ;
+	vertical-align: top;
+    align-content: center;
 }
 
 
 
-#titleRight {
-    text-align: left;
-    display: inline-block;
-    width: 50%;
-    color : #2F2E2E;
+div.project a {
+    text-decoration: none;
+    color : brown;
 }
 
-#titleLeft {
+
+.title {
+    margin-top: 2px;
+    margin-bottom : 3px;
     text-align: right;
     display: inline-block;
-    width: 50%;
+    /*width: 50%;*/
     color: #2F2E2E;
 }
 
-#dateRight {
+.date {
+
     text-align: left;
     display: inline-block;
-    width: 43%;
+    /*width: 43%;*/
     color: #2F2E2E;
     
     padding-left: 3px;
@@ -66,69 +54,30 @@ div.project {
     border-left-style: solid;
     border-left-color: #2F2E2E;
     
-
-
 }
 
-#dateLeft {
-    text-align: right;
-    display: inline-block;
-    width: 43%;
-    color: #2F2E2E;
-    
-    padding-right: 3px;
-    border-right-width: 2px;
-    border-right-style: solid;
-    border-right-color: #2F2E2E;
-
-}
-
-div.project p {
-    text-align: center;
-    display: inline-block;
-    vertical-align: middle;
-    width: 45%;
-    padding-right: 5px;    
-
-    color: #2F2E2E;
-    font-family: "Trebuchet MS";
-}
-
-div.project #pl {
-    color : #2F2E2E;
-    padding-right: 10px;  
-    padding-left: 0px;
-}
-
-
-
-div.project a {
-    display: run-in;
-    text-decoration: none;
-    color : #FF6138
-}
 
 div.project:hover{
-background-color: #dd4a4a
+border-color: darkgoldenrod;
 }
 
 
 div.project img {
-    display: inline-block;
-    border-color: #2F2E2E;
-    border-width: 0px;
-    border-style: solid;
 
-    border-radius: 10px;
-    width: 50%;
-    
-    
-    vertical-align: middle;
+    border-width: 0px;
+    width: 100%;
     height: auto;
 }
 
-div.project #imgl {
-    border-color: #2F2E2E;
+div.project p {
+      text-align: center;
+    display: inline;
+    vertical-align: middle;
+    width: 75%;
+    padding-right: 5px;    
+
+    color: #2F2E2E;
+    font-family: "Trebuchet MS";
 }
 
 @media only screen and (orientation: portrait)  {
