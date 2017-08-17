@@ -4,14 +4,18 @@ body {
 
 .portfolio {
     padding: 2x 2x;
+/*
     text-align: center;
     align-content: center;
+*/
+   display: block;
+     margin: 0 auto;
+    width: 1180px;
 
 }
 
-div.project { 
-    margin-left: 20px;
-    margin-right: 20px;
+.project { 
+    margin: 0;
     color: cornflowerblue;
     text-align: center;
     display: inline-block;
@@ -20,14 +24,14 @@ div.project {
 	border-style: solid;
 	border-color: transparent;
     font-size : 70%;
-    width: 30% ;
+    width: 387px;
 	vertical-align: top;
     align-content: center;
 }
 
 
 
-div.project a {
+.project a {
     text-decoration: none;
     color : brown;
 }
@@ -57,19 +61,19 @@ div.project a {
 }
 
 
-div.project:hover{
-border-color: darkgoldenrod;
+.project:hover{
+    background-color: #EEE
 }
 
 
-div.project img {
+.project img {
 
     border-width: 0px;
     width: 100%;
     height: auto;
 }
 
-div.project p {
+.project p {
       text-align: center;
     display: inline;
     vertical-align: middle;
@@ -80,14 +84,23 @@ div.project p {
     font-family: "Trebuchet MS";
 }
 
+@media only screen and (max-width: 959px) and (min-width: 768px)
+    .portfolio {
+        width: 748px;
+    }
+}
+
 @media only screen and (orientation: portrait)  {
-    div.project {
+    .portfolio{
+        width:100%;
+    }
+    .project {
          width: 100%;
     }
-    div.project img {
+    .project img {
         width: 90%;
     }
-     div.project p {
+     .project p {
         width: 90%;
     }
 }
