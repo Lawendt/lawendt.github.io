@@ -2,6 +2,50 @@ body {
     font-family: 'Merriweather';font-size: 22px;
 }
 
+header {
+    display: block;  
+    text-align: center;
+
+}
+
+header .container {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: left;
+    flex: 1;
+}
+
+header nav {
+    text-decoration:none;
+    color: black;
+    text-align: right;
+    margin: auto;
+    flex: 3;
+
+    
+}
+
+nav a {
+    padding-left: 1px;
+    padding-right: 1px;
+    text-decoration:none;
+    color: black;
+    
+}
+
+nav a:hover{
+    border-bottom-style: solid;
+    border-bottom-color: #dd4a4a;
+    border-bottom-width: 3px;
+    color: #dd4a4a;
+}
+
+
 .portfolio {
     padding: 2x 2x;
 /*
@@ -88,6 +132,9 @@ body {
     .portfolio {
         width: 783px;
     }
+    header .container { 
+         width: 783px;
+    }
 }
 
 
@@ -95,6 +142,7 @@ body {
     .portfolio{
         width:100%;
     }
+
     .project {
          width: 100%;
     }
@@ -103,5 +151,25 @@ body {
     }
      .project p {
         width: 90%;
+    }
+    
+    header .container {
+        display: block;
+        width: 100%;
+    }
+
+    h1 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav {
+        display: block;
+        text-decoration:none;
+        color: black;
+        text-align: center;
+        margin: auto;
+         padding-bottom: 2%;
     }
 }
