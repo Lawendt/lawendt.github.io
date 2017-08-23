@@ -84,13 +84,14 @@ body {
     font-family: "Trebuchet MS";
 }
 
-@media only screen and (max-width: 959px) and (min-width: 768px)
+@media only screen and (min-width: 783px) and (max-width: 1180px) {
     .portfolio {
-        width: 748px;
+        width: 783px;
     }
 }
 
-@media only screen and (orientation: portrait)  {
+
+@media only screen and (orientation: portrait) and (max-width: 783px) {
     .portfolio{
         width:100%;
     }
