@@ -28,7 +28,7 @@ header nav {
 }
 
 nav a {
-    padding-left: 2%;
+    margin-left: 2%;
     padding-right: 1px;
     text-decoration:none;
     color: black;
