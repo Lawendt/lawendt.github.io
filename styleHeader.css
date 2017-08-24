@@ -1,0 +1,73 @@
+header {
+    font-family: 'Merriweather';
+    font-size: 22px;
+    display: block;  
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    margin: 0 auto;
+/*  width: 1200px;*/
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: left;
+    flex: 1;
+}
+
+header nav {
+    text-decoration:none;
+    color: black;
+    text-align: right;
+    margin: auto;
+    flex: 3;
+
+    
+}
+
+nav a {
+    padding-left: 2%;
+    padding-right: 1px;
+    text-decoration:none;
+    color: black;
+    
+}
+
+nav a:hover{
+    border-bottom-style: solid;
+    border-bottom-color: #dd4a4a;
+    border-bottom-width: 3px;
+    color: #dd4a4a;
+}
+
+/*
+@media only screen and (min-width: 783px) and (max-width: 1180px) {
+    .container { 
+         width: 783px;
+    }
+}
+        */
+
+@media only screen and (orientation: portrait) and (max-width: 783px) {
+     header .container {
+        display: block;
+        width: 100%;
+    }
+    
+    h1 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav {
+        display: block;
+        text-decoration:none;
+        color: black;
+        text-align: center;
+        margin: auto;
+         padding-bottom: 2%;
+    }
+}
