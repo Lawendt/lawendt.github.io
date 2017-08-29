@@ -50,8 +50,44 @@ nav a:hover{
 }
         */
 
+.contact {
+    color: black;
+    
+    /*width: 205px;
+    text-align: left;*/
+    text-align: center;
+    margin: auto;
+    flex: 1;
+}
+
+.contactContent {
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.imgContact {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.textContact {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: underline;
+}
+.contact p {
+    display: block;
+    margin: 0;
+}
+
+
 @media only screen and (orientation: portrait) and (max-width: 783px) {
      header .container {
+        display: block;
+        width: 100%;
+    }
+    .contact {
         display: block;
         width: 100%;
     }
@@ -60,6 +96,7 @@ nav a:hover{
         display: block;
         width: 100%;
         text-align: center;
+        margin: 3px;
     }
 
     header nav {
@@ -71,3 +108,4 @@ nav a:hover{
          padding-bottom: 2%;
     }
 }
+

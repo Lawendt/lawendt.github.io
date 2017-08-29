@@ -3,38 +3,6 @@ footer {
     text-align: center;
 }
 
-.contact {
-    color: black;
-    
-    /*width: 205px;
-    text-align: left;*/
-    
-    width: 100%;
-    text-align: center;
-    margin: auto;
-
-}
-
-.contactContent {
-    display:inline-block;
-    margin-right: 5px;
-}
-
-.imgContact {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 2px;
-}
-
-.textContact {
-    display: inline-block;
-    vertical-align: middle;
-    text-decoration: underline;
-}
-.contact p {
-    display: block;
-    margin: 0;
-}
 
 footer a {
     text-decoration: none;
