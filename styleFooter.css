@@ -16,9 +16,3 @@ footer a {
 .credits a {
     text-decoration: underline;
 }
-
-
-@media only screen and (orientation: portrait) and (max-width: 783px) {
-
-
-}

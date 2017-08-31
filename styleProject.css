@@ -71,19 +71,30 @@ body {
     width: 75%;
     padding-right: 5px; 
  
-
     color: #2F2E2E;
     font-family: "Trebuchet MS";
+   
 }
+
+
 
 .project .tag {
     color: black;
     font-size: 75%;
 }
 
-.project .tag .a {
+.pTagLink {
     color: black;
+    font-style: italic;
 }
+
+.pTagLink:hover {
+    color: #dd4a4a;
+    cursor: pointer;
+    
+}
+
+
 
 
 

@@ -2,24 +2,38 @@
 <html>
     <head>
         <title>Lawendt</title>
+
+        <!-- meta -->
         <meta charset="UTF-8">
+        <meta name="description" content="Luiz Wendt's portfolio and other things">
+        <meta name="keywords" content="Lawendt, game, game development">
+        <meta name="author" content="Luiz Wendt">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Libs -->
+        <script src="lib/angular.js"></script>
+        <script src="lib/angular-route.js"></script>
+
+        <!-- JS -->
+        <script src="data/projects.js"></script>
+        <script src="js/angularControl.js"></script>
+
+        <!-- Styles -->
         <link rel="stylesheet" href="lib/csshake.min.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="styleCenterBox.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="styleHeader.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="styleProject.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="styleFooter.css" type="text/css" media="screen" />
-        <meta name="description" content="Luiz Wendt's portfolio and other things">
-        <meta name="keywords" content="Lawendt, game, game development">
-        <meta name="author" content="Luiz Wendt">
-    
-       <link href="//fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type="text/css">
-        
+
+        <!-- fonts -->
+        <link href="//fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type="text/css">
+
     </head>
     <body>
         <header> 
             <div class = "container centerBox">
                 <h1>Lawendt</h1> 
+
                 <div class = "contact">
                     <div class = "contactContent">
                         <a href="https://twitter.com/La_wendt" class = "shake">
@@ -40,9 +54,10 @@
                         </a>
                     </div>
                     <br>
-               
-                     
+
+
                 </div>
+
                 <nav>
                     <a class = "shake" href = "/about/">About </a>  
                     <a class = "shake" href = "/">Portfolio </a>
@@ -52,88 +67,42 @@
             </div>
 
         </header>
-           <!--<hr color: #dd4a4a>-->
-      
-        <!-- portfolio -->
-        <div class = "content">
-            <section class = "portfolio centerBox">
-            
-                <article class = "project " >
-                    <a href= "https://lawendt.itch.io/despeos" target = "_blank">
-                        <h2 class="title"> Despeos </h2> <p class ="date" >WIP</p>  
-                        <img src= img/despeos_.png alt = "Image from the game Despeos" class = "shake">
-                        <br><p>Puzzle-plataform where you can only move by using a hook.</p>
-                        <div class = "tag"> <a>Unity</a>, <a>C#</a>, <a>Game Design</a></div>
+        <!--<hr color: #dd4a4a>-->
+
+        <!-- content page -->
+        <div class = "centerBox" ng-app="myApp" ng-controller="myCtrl">
+            <section class = "portfolio">
+                <article class = "project"  ng-repeat="p in projectFilter">
+                    <a href= {{p.url}} target = "_blank">
+                        <h2 class="title"> {{p.name}} </h2> <p class = {{p.date}} >WIP</p>  
+                        <img src= {{p.img}} alt = "Image from the game {{p.name}}" class = "shake">
+                        <br><p>{{p.description}}</p>
                     </a>
+                     <div class = "tag"> <span ng-repeat="tag in p.tags" ><span ng-click="filterBy({tag})" class = "pTagLink shake-little">{{tag}}</span><span ng-show= !$last>, </span></span></div>
                 </article>
-                
-                <article class = "project" >
-                    <a href= "https://twinravens.itch.io/party-hats" target = "_blank" >
-                        <h2 class = "title"> Party Hats </h2>  <p  class ="date">WIP</p>
-                        <img src= img/partyhats_.png alt = "Image from the game Party Hats" class = "shake">
-                        <br><p>Local multiplayer arcade where players fight each other to see which hat is the coolest</p>  
-                        <div class = "tag"> <a>Unity</a>, <a>C#</a>, <a>Game Design</a></div>
-                    </a>
-                </article>
-                
-                <article class = "project" >
-                    <a href= "https://lawendt.itch.io/2-roll" target = "_blank" >
-                        <h2 class = "title"> 2 Roll </h2>  <p  class ="date">2015</p>
-                        <img src= img/2Roll_.jpg alt = "Image from the game 2 Roll" class = "shake">
-                        <br><p>2 Roll is about two separate souls faded to pass through doors wich are only opened by their eternal partner. </p>  
-                        <div class = "tag"> <a>Unity</a>, <a>C#</a>, <a>Game Design</a>, <a>Jam</a></div>
-                    </a>
-                </article>
-                
-                  <article class = "project" >
-                    <a href= "http://www.kongregate.com/games/NerdyOrcStudio/jampalooza" target = "_blank" >
-                        <h2 class = "title"> Jampalooza </h2>  <p  class ="date">2017</p>
-                        <img src= img/Jampalooza_.png alt = "Image from the game Jampalooza" class = "shake">
-                        <br><p> Try to earn your life in a big musical festival. </p>  
-                        <div class = "tag"> <a>Unity</a>, <a>C#</a>, <a>Game Design</a>, <a>Jam</a></div>
-                    </a>
-                </article>
-                
-                <article class = "project">
-                    <a href= "https://play.google.com/store/apps/details?id=com.AtomicRocket.AtomicRocketArena&hl=pt_BR" target = "_blank" >
-                        <h2 class = "title"> Atomic Rocket Arena </h2> <p class ="date"> 2017</p>    
-                        <img  src= img/rocketArena_.png alt = "Image from the game Atomic Rocket Arena" class = "shake">
-                        <br><p>Multiplayer of spaceships which players use the same cellphone to battle each other. </p>  
-                        <div class = "tag"> <a>Unity</a>, <a>C#</a>, <a> Atomic Rocket</a> </div>
-                    </a>
-                </article>
-                
-                <article class = "project">
-                    <a href= "https://lawendt.itch.io/present-aliens" target = "_blank" >
-                        <h2 class = "title"> Present Aliens </h2> <p class ="date"> 2016</p>    
-                        <img  src= img/present-aliens_.png alt = "Image from the game Present Aliens" class = "shake">
-                        <br><p> Be like a proper alien and build things for humans! </p>  
-                        <div class = "tag"> <a>Javascript</a>, <a>Jam</a> </div>
-                    </a>
-                </article>
-                
+
             </section>
         </div>
-        
+
         <footer>
             <br>
             <br>
-           
-            
+
+
             <div class = "contactContent">
-                        <a href="mailto:luizaugustow_1@msn.com">
-                            <!-- <div class = "imgContact"><img src = "img/icons/mail-black-envelope-symbol.png" width="32px" href="mailto:luizaugustow_1@msn.com"></div> -->
-                            <div class = "textContact"> luizaugustow_1@msn.com</div> 
-                        </a>
+                <a href="mailto:luizaugustow_1@msn.com">
+                    <!-- <div class = "imgContact"><img src = "img/icons/mail-black-envelope-symbol.png" width="32px" href="mailto:luizaugustow_1@msn.com"></div> -->
+                    <div class = "textContact"> luizaugustow_1@msn.com</div> 
+                </a>
             </div>
-            
+
             <br>
             <div class = "credits"> 
                 <p> Design and code by Luiz Augusto Wendt </p>
                 <p>Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p></div>
-            
-            
-            
+
+
+
         </footer>
     </body>
 

@@ -36,9 +36,9 @@ nav a {
 }
 
 nav a:hover{
-    border-bottom-style: solid;
+    /*border-bottom-style: solid;
     border-bottom-color: #dd4a4a;
-    border-bottom-width: 3px;
+    border-bottom-width: 3px;*/
     color: #dd4a4a;
 }
 
@@ -71,6 +71,10 @@ nav a:hover{
     margin-right: 2px;
 }
 
+.imgContact img:hover {
+     
+}
+
 .textContact {
     display: inline-block;
     vertical-align: middle;
@@ -80,6 +84,7 @@ nav a:hover{
     display: block;
     margin: 0;
 }
+
 
 
 @media only screen and (orientation: portrait) and (max-width: 783px) {
