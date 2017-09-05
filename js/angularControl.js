@@ -1,5 +1,17 @@
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', ["ngRoute"]);
 
+app.config(function($routeProvider) {
+   $routeProvider
+	   .when("/", {
+      templateUrl: "portfolio.html"
+   })
+        .when("/about", {
+       templateUrl: "about.html"
+   })
+	   .otherwise({
+      template: "<b>Opção inválida!</b>"
+   });
+});
 
 app.controller('myCtrl', function($scope) {
     $scope.projects = Projects;
