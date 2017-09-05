@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="lib/csshake.min.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="styleCenterBox.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="styleHeader.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="styleProject.css" type="text/css" media="screen" />
+       
         <link rel="stylesheet" href="styleFooter.css" type="text/css" media="screen" />
 
         <!-- fonts -->
@@ -59,9 +59,9 @@
                 </div>
 
                 <nav>
-                    <a class = "shake" href = "/about/">About </a>  
-                    <a class = "shake" href = "/">Portfolio </a>
-                    <a class = "shake" href = "/CV/">CV </a>
+                    <a class = "shake" href = "#!about">About </a>  
+                    <a class = "shake" href = "#!">Portfolio </a>
+                    <a class = "shake" href = "#!CV">CV </a>
                     <!--<hr color: #dd4a4a>-->
                 </nav>
             </div>
@@ -70,18 +70,10 @@
         <!--<hr color: #dd4a4a>-->
 
         <!-- content page -->
-        <div class = "centerBox" ng-app="myApp" ng-controller="myCtrl">
-            <section class = "portfolio">
-                <article class = "project"  ng-repeat="p in projectFilter">
-                    <a href= {{p.url}} target = "_blank">
-                        <h2 class="title"> {{p.name}} </h2> <p class = {{p.date}} >WIP</p>  
-                        <img src= {{p.img}} alt = "Image from the game {{p.name}}" class = "shake">
-                        <br><p>{{p.description}}</p>
-                    </a>
-                     <div class = "tag"> <span ng-repeat="tag in p.tags" ><span ng-click="filterBy({tag})" class = "pTagLink shake-little">{{tag}}</span><span ng-show= !$last>, </span></span></div>
-                </article>
+        <div class = "centerBox" ng-app="myApp" >
+            <ng-view>
 
-            </section>
+            </ng-view>
         </div>
 
         <footer>
