@@ -1,9 +1,11 @@
 function project(name, date, img, url, description, tags) {
     this.name = name;
+     this.date = date;
     this.img = img;
     this.description = description;
     this.url = url;
     this.tags = tags;
+   
 }
 
 Projects = [];
