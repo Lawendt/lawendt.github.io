@@ -6,7 +6,7 @@
 <section class = "portfolio" ng-controller="myCtrl">
     <article class = "project"  ng-repeat="p in projectFilter">
         <a href= {{p.url}} target = "_blank">
-            <h2 class="title"> {{p.name}} </h2> <p class = "date" >{{p.date}}</p>  
+            <h2 class="title"> {{p.name}} </h2> <p class = "date" >{{p.date}}</p>
             <img ng-src= {{p.img}} alt = "Image from the game {{p.name}}" class = "shake">
             <br><p>{{p.description}}</p>
         </a>

@@ -2,9 +2,6 @@ body {
     font-family: 'Merriweather';font-size: 22px;
 }
 
-
-
-
 .project { 
     margin: 0;
     color: cornflowerblue;
@@ -18,7 +15,8 @@ body {
     width: 386px;
 	vertical-align: top;
     align-content: center;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: 3px;
 }
 
 
@@ -62,6 +60,7 @@ body {
     border-width: 0px;
     width: 100%;
     height: auto;
+    margin-top: 5px;
 }
 
 .project p {
@@ -84,7 +83,7 @@ body {
 }
 
 .pTagLink {
-    color: black;
+    color: #555;
     font-style: italic;
 }
 
