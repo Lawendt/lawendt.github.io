@@ -16,6 +16,8 @@ TopProjects.push(new project("Despeos", "WIP", "img/despeos_.png", "https://lawe
 
 TopProjects.push(new project("Party Hats", "WIP", "img/partyhats_.png", "https://twinravens.itch.io/party-hats", "Local multiplayer arcade where players fight each other to see which hat is the coolest.", ["Unity", "Game Design", "C#"]));
 
+TopProjects.push(new project("Funda Simulator", "2017", "img/fundaSimulator.png", "https://atomicrocket.itch.io/funda-simulator", "Feel the experience of shooting with a slingshot in VR.", ["VR", "Unity", "Game Design", "C#"]));
+
 TopProjects.push(new project("2 Roll", "2015", "img/2Roll_.jpg", "https://lawendt.itch.io/2-roll", "2 Roll is about two separate souls faded to pass through doors wich are only opened by their eternal partner.", ["Unity", "Game Design", "C#", "Jam"]));
 
 TopProjects.push(new project("Jampalooza", "2017", "img/Jampalooza_.png", "http://www.kongregate.com/games/NerdyOrcStudio/jampalooza", "Try to earn your life in a big musical festival.", ["Unity", "Game Design", "C#", "Jam"]));                   
