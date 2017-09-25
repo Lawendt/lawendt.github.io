@@ -1,0 +1,17 @@
+body {
+    font-family: 'Merriweather';font-size: 22px;
+}
+
+.about h1 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+
+.generalInfo {
+    display: flex;
+}
+
+.aboutBox {
+    flex-basis: 1;
+}
