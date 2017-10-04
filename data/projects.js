@@ -12,11 +12,11 @@ TopProjects = [];
 
 // Stared Projects
 
+TopProjects.push(new project("Funda Simulator", "2017", "img/FundaSimulator.png", "https://atomicrocket.itch.io/funda-simulator", "Feel the experience of shooting with a slingshot in VR. Best VR Game finalist on SBGames 2017.", ["VR", "Unity", "Game Design", "C#"]));
+
 TopProjects.push(new project("Despeos", "WIP", "img/despeos_.png", "https://lawendt.itch.io/despeos", "Puzzle-plataform where you can only move by using a hook.", ["Unity", "Game Design", "C#"]));
 
 TopProjects.push(new project("Party Hats", "WIP", "img/partyhats_.png", "https://twinravens.itch.io/party-hats", "Local multiplayer arcade where players fight each other to see which hat is the coolest.", ["Unity", "Game Design", "C#"]));
-
-TopProjects.push(new project("Funda Simulator", "2017", "img/FundaSimulator.png", "https://atomicrocket.itch.io/funda-simulator", "Feel the experience of shooting with a slingshot in VR.", ["VR", "Unity", "Game Design", "C#"]));
 
 TopProjects.push(new project("2 Roll", "2015", "img/2Roll_.jpg", "https://lawendt.itch.io/2-roll", "2 Roll is about two separate souls faded to pass through doors wich are only opened by their eternal partner.", ["Unity", "Game Design", "C#", "Jam"]));
 
