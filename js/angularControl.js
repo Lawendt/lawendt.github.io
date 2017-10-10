@@ -16,12 +16,12 @@ app.config(function($routeProvider) {
 app.controller('myCtrl', function($scope) {
     $scope.projects = Projects;
     $scope.topProjects = TopProjects;
-    $scope.projectFilter = Projects;
+    $scope.projectFilter = TopProjects;
     $scope.currentTagFilter = "Top";
     $scope.filterBy = function(tag) {
         tag = tag.tag;
         console.log(tag);
-        if(tag == null || tag == undefined)
+        if(tag == null || tag == undefined || tag == "Top")
         {
             $scope.projectFilter = $scope.topProjects;
             $scope.currentTagFilter = "Top";
