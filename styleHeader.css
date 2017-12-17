@@ -3,7 +3,7 @@ header {
     font-size: 22px;
     display: block;  
     text-align: center;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 
 header .container {
@@ -29,8 +29,6 @@ header nav {
     text-align: right;
     margin: auto;
     flex: 2;
-
-    
 }
 
 nav a {
@@ -63,6 +61,7 @@ nav a:hover{
     text-align: left;
     margin: auto;
     flex: 1;
+    padding-left: 5px;
 }
 
 .contactContent {
@@ -76,7 +75,7 @@ nav a:hover{
     margin-right: 2px;
 }
 
-.imgContact img:hover {
+.imgContact img {
      
 }
 
