@@ -24,7 +24,9 @@ TopProjects.push(new project("Jampalooza", "2017", "img/Jampalooza_.png", "http:
 
 TopProjects.push(new project("Atomic Rocket Arena", "2017", "img/rocketArena_.png", "https://play.google.com/store/apps/details?id=com.AtomicRocket.AtomicRocketArena&hl=pt_BR", "Multiplayer of spaceships which players use the same cellphone to battle each other.", ["Unity", "C#", "Mobile", "Atomic Rocket"]));   
 
-TopProjects.push(new project("Present Aliens", "2016", "img/present-aliens_.png", "https://lawendt.itch.io/present-aliens", "Be like a proper alien and build things for humans!", ["Javascript", "Jam"]));   
+TopProjects.push(new project("Bocha Simulator", "2017", "img/BochaSimulator.png", "https://twinravens.itch.io/bocha-simulator", "Play bocha now on your computer!", ["Unity", "Arduino","C#"]));   
+
+TopProjects.push(new project("Present Aliens", "2016", "img/present-aliens_.png", "https://lawendt.itch.io/present-aliens", "Be like a proper alien and build things for humans!", ["Javascript", "Jam", "Web"]));   
 
 // All projects
 Projects = [];
@@ -32,3 +34,13 @@ for(var i in TopProjects) {
     Projects.push(TopProjects[i]);
 }
 Projects.push(new project("Simulacro - Sintagmas", "2017", "img/SimulacroSintagmas_.png", "https://www.behance.net/gallery/55304805/Simulacro-Sintagmas", "Educational game for iOS and Android with the objective of exercising 'sintagmas' in portuguese ", ["Unity", "C#", "Mobile", "Atomic Rocket"]))
+
+AllTags = ["All", "Top"];
+
+Projects.forEach(function(item,index){
+	 AllTags = AllTags.concat(item.tags);
+});
+
+AllTags = AllTags.filter(function(item, pos, self) {
+    return self.indexOf(item) == pos;
+})

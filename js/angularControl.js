@@ -15,9 +15,16 @@ app.config(function($routeProvider) {
 
 app.controller('myCtrl', function($scope) {
     $scope.projects = Projects;
+    $scope.allTags = AllTags;
     $scope.topProjects = TopProjects;
     $scope.projectFilter = TopProjects;
     $scope.currentTagFilter = "Top";
+
+    $scope.tags = $scope.allTags.filter(function(item, pos) {
+        return item != $scope.currentTagFilter;
+    });
+
+
     $scope.filterBy = function(tag) {
         tag = tag.tag;
         console.log(tag);
@@ -26,7 +33,7 @@ app.controller('myCtrl', function($scope) {
             $scope.projectFilter = $scope.topProjects;
             $scope.currentTagFilter = "Top";
         }
-        else if(tag == "Everything"){
+        else if(tag == "All"){
             $scope.projectFilter = $scope.projects;
             $scope.currentTagFilter = tag;
         }
@@ -44,5 +51,11 @@ app.controller('myCtrl', function($scope) {
                 }
             }
         }
+
+        $scope.tags = $scope.allTags.filter(function(item, pos) {
+            return item != $scope.currentTagFilter;
+        });
+        
+        
     }
 });

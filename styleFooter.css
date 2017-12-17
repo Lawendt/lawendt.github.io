@@ -9,6 +9,9 @@ footer a {
     display: inline-block;
     color: black;
 }
+footer a:hover{
+    color: #dd4a4a;
+}
 
 .credits {
     font-size: 8px;
@@ -16,4 +19,8 @@ footer a {
 .credits a {
     text-decoration: underline;
     text-decoration-color: #555555;
+}
+
+.credits a:hover {
+    text-decoration-color: #dd4a4a;
 }
