@@ -6,7 +6,7 @@
 <section class = "portfolio" ng-controller="myCtrl">
 
     <div class="dropdown">
-        <button class="dropbtn"><span class="tagFilterName">{{currentTagFilter}}</span> projects</button>
+        <button class="dropbtn">▼<span>{{currentTagFilter}}</span> projects</button>
         <div class="dropdown-content">
             <a ng-repeat="tag in tags" ng-click="filterBy({tag})">{{tag}}</a>
         </div>
