@@ -99,6 +99,7 @@ body {
     color: black;
     font-size: 16px;
     border: none;
+    border-left: 4px solid;
     cursor: pointer;
     width: 100%;
     text-align: left;
