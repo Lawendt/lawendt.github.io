@@ -2,17 +2,35 @@ body {
     font-family: 'Merriweather';font-size: 22px;
 }
 
+.about {
+    text-align: center;
+    font-size: 16px;
+}
+
 .about h1 {
+    text-align: center;
     border-bottom-style: solid;
     border-bottom-width: 1px;
 }
 
 
-.generalInfo {
-    display: flex;
+.about img  {
+    margin: 5px;
 }
 
-.aboutBox {
-    flex-basis: 1;
-    text-align: left;
+.experiences p{
+    margin: 0;
 }
+
+.experiences h3{
+    margin: 0;
+}
+
+.experiences h4{
+    margin: 0;
+}
+
+.experiences div {
+    margin-bottom: 20px;
+}
+
