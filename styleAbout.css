@@ -13,6 +13,13 @@ body {
     border-bottom-width: 1px;
 }
 
+.knowledgeBox {
+    display: flex;
+}
+
+.knowledgeBox div {
+    flex: 1;
+}
 
 .about img  {
     margin: 5px;

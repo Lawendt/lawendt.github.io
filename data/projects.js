@@ -12,7 +12,7 @@ TopProjects = [];
 
 // Stared Projects
 
-TopProjects.push(new project("Funda Simulator", "2017", "img/FundaSimulator.png", "https://atomicrocket.itch.io/funda-simulator", "Feel the experience of shooting with a slingshot in VR. Best VR Game finalist on SBGames 2017.", ["VR", "Unity", "Game Design", "C#"]));
+TopProjects.push(new project("Funda Simulator", "2017", "img/FundaSimulator.png", "https://atomicrocket.itch.io/funda-simulator", "Feel the experience of shooting with a slingshot in VR. Best VR Game finalist on SBGames 2017.", ["VR", "Unity", "Game Design", "C#", "Atomic Rocket"]));
 
 TopProjects.push(new project("Despeos", "WIP", "img/despeos_.png", "https://lawendt.itch.io/despeos", "Puzzle-plataform where you can only move by using a hook.", ["Unity", "Game Design", "C#"]));
 
@@ -33,7 +33,16 @@ Projects = [];
 for(var i in TopProjects) {
     Projects.push(TopProjects[i]);
 }
+
+Projects.push(new project("Element Cycle", "2018", "img/ElementCycle.png", "https://globalgamejam.org/2018/games/element-cycle", "Couch arena game about absorbing elements from the battleground and transmitting it to others players.", ["Unity", "Game Design", "Jam"]));
+
 Projects.push(new project("Simulacro - Sintagmas", "2017", "img/SimulacroSintagmas_.png", "https://www.behance.net/gallery/55304805/Simulacro-Sintagmas", "Educational game for iOS and Android with the objective of exercising 'sintagmas' in portuguese ", ["Unity", "C#", "Mobile", "Atomic Rocket"]))
+
+Projects.push(new project("Átomo - Ebook Reader", "2017", "img/atomo.png", "https://play.google.com/store/apps/details?id=com.AtomicRocket.Atomo", "Reader of customizable interactable ebooks", ["Unity", "C#", "Mobile", "Atomic Rocket"]));
+
+
+Projects.push(new project("Olympic S.S. Idol Festival", "2015", "img/OlympicSS_.jpg", "https://www.behance.net/gallery/27995525/Olympic-SS-Idol-Festival", "First game developed. A rythim game based on Love Live!", ["C++", "Game Design"]));
+
 
 AllTags = ["All", "Top"];
 
