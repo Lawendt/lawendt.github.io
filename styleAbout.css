@@ -5,12 +5,26 @@ body {
 .about {
     text-align: center;
     font-size: 16px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: #5555;
 }
 
 .about h1 {
     text-align: center;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+    color: #dd4a4a;
+    margin-bottom: 0;
+}
+
+.about a {
+    text-decoration: underline;
+}
+
+.descriotion a {
+    color: #dd4a4a;
+}
+.about h2 {
+     color: #dd4a4a;
 }
 
 .knowledgeBox {
@@ -35,9 +49,21 @@ body {
 
 .experiences h4{
     margin: 0;
+    color: #433;
+}
+
+.experiences a {
+    color: inherit;
 }
 
 .experiences div {
     margin-bottom: 20px;
 }
 
+.heart{
+    color: red;
+}
+
+.justified {
+    text-align: justify;
+}

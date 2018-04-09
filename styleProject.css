@@ -54,6 +54,14 @@ body {
     background-color: #EEE
 }
 
+.project:hover .title {
+    color: #dd4a4a;
+}
+
+.project:hover .date {
+    color: #dd4a4a;
+    border-left-color: #dd4a4a;
+}
 
 .project img {
 
