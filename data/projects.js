@@ -14,13 +14,13 @@ TopProjects = [];
 
 TopProjects.push(new project("Funda Simulator", "2017", "img/FundaSimulator.png", "#!funda-simulator", "Feel the experience of shooting with a slingshot in VR. Best VR Game finalist on SBGames 2017.", ["VR", "Unity", "Game Design", "C#", "Atomic Rocket"]));
 
-TopProjects.push(new project("Despeos", "WIP", "img/despeos_.png", "https://lawendt.itch.io/despeos", "Puzzle-plataform where you can only move by using a hook.", ["Unity", "Game Design", "C#"]));
+TopProjects.push(new project("Despeos", "2016", "img/despeos_.png", "https://lawendt.itch.io/despeos", "Puzzle-plataform where you can only move by using a hook.", ["Unity", "Game Design", "C#"]));
 
 TopProjects.push(new project("Party Hats", "WIP", "img/partyhats_.png", "https://twinravens.itch.io/party-hats", "Local multiplayer arcade where players fight each other to see which hat is the coolest.", ["Unity", "Game Design", "C#"]));
 
 TopProjects.push(new project("2 Roll", "2015", "img/2Roll_.jpg", "https://lawendt.itch.io/2-roll", "2 Roll is about two separate souls faded to pass through doors wich are only opened by their eternal partner.", ["Unity", "Game Design", "C#", "Jam"]));
 
-TopProjects.push(new project("Angry Pucks", "2018", "img/angry-pucks_.png", "https://play.google.com/store/apps/details?id=com.babyowlstudios.angrypucks", "Angry Pucks is game about pucks that are angry and want you to PUCK OFF!", ["Unity", "C#", "Management", "Baby Owl"]));   
+TopProjects.push(new project("Angry Pucks", "2018", "img/angry-pucks_.png", "https://babyowlstudios.com/angry-pucks/", "Angry Pucks is game about pucks that are angry and want you to PUCK OFF!", ["Unity", "C#", "Management", "Baby Owl"]));   
 
 TopProjects.push(new project("Jampalooza", "2017", "img/Jampalooza_.png", "http://www.kongregate.com/games/NerdyOrcStudio/jampalooza", "Try to earn your life in a big musical festival.", ["Unity", "Game Design", "C#", "Jam"]));                   
 
