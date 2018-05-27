@@ -7,6 +7,9 @@ app.config(function($routeProvider) {
     })
         .when("/about", {
         templateUrl: "about.html"
+    })        
+        .when("/funda-simulator", {
+        templateUrl: "project/funda-simulator.html"
     })
         .otherwise({
         template: "<b>Opção inválida!</b>"
