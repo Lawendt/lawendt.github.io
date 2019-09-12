@@ -14,6 +14,8 @@ TopProjects = [];
 
 TopProjects.push(new project("Star Botanist", "2019", "img/star-botanist/0.png", "http://babyowl.studio/star-botanist", "An adventure through a alien and mysterious planet", ["Unity", "Mobile", "Professional"]));
 
+TopProjects.push(new project("Bagaço", "2019", "img/bagaco/title.png", "https://lawendt.itch.io/bagaco", "Experimental game which uses photomontage (collage) and vignettes as a form of expressing feelings and outflow.", ["Unity", "Personal", "University"]));
+
 TopProjects.push(new project("Funda Simulator", "2017", "img/FundaSimulator.png", "#!funda-simulator", "Feel the experience of shooting with a slingshot in VR. Best VR Game finalist on SBGames 2017.", ["Unity", "VR", "Game Design", "Professional"]));
 
 TopProjects.push(new project("Cozy", "2019", "img/cozy/0.png", "https://twinravens.itch.io/cozy", "From fireplace to fireplace, you search for a home", ["Unity", "Jam"]));
@@ -28,7 +30,7 @@ TopProjects.push(new project("My Little Mjolnir", "2018", "img/my-little-mjolnir
 
 TopProjects.push(new project("Atomic Rocket Arena", "2017", "img/rocketArena_.png", "https://play.google.com/store/apps/details?id=com.AtomicRocket.AtomicRocketArena&hl=pt_BR", "Multiplayer of spaceships which players use the same cellphone to battle each other.", ["Unity", "Mobile", "Professional"]));   
 
-TopProjects.push(new project("Present Aliens", "2016", "img/present-aliens_.png", "https://lawendt.itch.io/present-aliens", "Be like a proper alien and build things for humans!", ["Javascript", "Jam", "University"])); 
+
 
 // All projects
 Projects = [];
@@ -39,6 +41,8 @@ for(var i in TopProjects) {
 //TODO: add Laser
 
 //TODO: add Game from animation project
+
+Projects.push(new project("Present Aliens", "2016", "img/present-aliens_.png", "https://lawendt.itch.io/present-aliens", "Be like a proper alien and build things for humans!", ["Javascript", "Jam", "University"])); 
 
 Projects.push(new project("Simulacro - Sintagmas", "2017", "img/SimulacroSintagmas_.png", "https://www.behance.net/gallery/55304805/Simulacro-Sintagmas", "Educational game for iOS and Android with the objective of exercising 'sintagmas' in portuguese ", ["Unity", "Mobile", "Professional"]))
 
