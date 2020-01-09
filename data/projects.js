@@ -12,7 +12,7 @@ TopProjects = [];
 
 // Stared Projects
 
-TopProjects.push(new project("Star Botanist", "2019", "img/star-botanist/0.png", "http://babyowl.studio/star-botanist", "An adventure through a alien and mysterious planet", ["Unity", "Mobile", "Professional"]));
+TopProjects.push(new project("Star Botanist", "2019", "img/star-botanist/0.png", "http://babyowl.studio/star-botanist", "An adventure through an alien and mysterious planet", ["Unity", "Mobile", "Professional"]));
 
 TopProjects.push(new project("Bagaço", "2019", "img/bagaco/title.png", "https://lawendt.itch.io/bagaco", "Experimental game which uses photomontage (collage) and vignettes as a form of expressing feelings and outflow.", ["Unity", "Personal", "University"]));
 
@@ -20,7 +20,7 @@ TopProjects.push(new project("Funda Simulator", "2017", "img/FundaSimulator.png"
 
 TopProjects.push(new project("Cozy", "2019", "img/cozy/0.png", "https://twinravens.itch.io/cozy", "From fireplace to fireplace, you search for a home", ["Unity", "Jam"]));
 
-TopProjects.push(new project("Angry Pucks", "2018", "img/angry-pucks_.png", "https://babyowlstudios.com/angry-pucks/", "Angry Pucks is game about pucks that are angry and want you to PUCK OFF!", ["Unity", "Mobile", "Professional"]));   
+TopProjects.push(new project("Angry Pucks", "2018", "img/angry-pucks_.png", "https://babyowlstudios.com/angry-pucks/", "Angry Pucks is a game about pucks that are angry and want you to PUCK OFF!", ["Unity", "Mobile", "Professional"]));   
 
 TopProjects.push(new project("Sheppy The Dog", "2016", "img/sheppy.png", "https://play.google.com/store/apps/details?id=com.babyowl.sheppythedog", "Help a charismatic dog to herd the sheep back to the barn and enjoy your day at the farm.", ["Unity", "Mobile", "Professional"]));  
 
