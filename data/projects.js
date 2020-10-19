@@ -12,7 +12,7 @@ TopProjects = [];
 
 // Stared Projects
 
-TopProjects.push(new project("Star Botanist", "2019", "img/star-botanist/0.png", "http://babyowl.studio/star-botanist", "An adventure through an alien and mysterious planet", ["Unity", "Mobile", "Professional"]));
+TopProjects.push(new project("Star Botanist", "2019", "img/star-botanist/0.png", "https://www.behance.net/gallery/76301843/Star-Botanist", "An adventure through an alien and mysterious planet", ["Unity", "Mobile", "Professional"]));
 
 TopProjects.push(new project("Bagaço", "2019", "img/bagaco/title.png", "https://lawendt.itch.io/bagaco", "Experimental game which uses photomontage (collage) and vignettes as a form of expressing feelings and outflow.", ["Unity", "Personal", "University"]));
 
@@ -24,7 +24,7 @@ TopProjects.push(new project("Angry Pucks", "2018", "img/angry-pucks_.png", "htt
 
 TopProjects.push(new project("Sheppy The Dog", "2016", "img/sheppy.png", "https://play.google.com/store/apps/details?id=com.babyowl.sheppythedog", "Help a charismatic dog to herd the sheep back to the barn and enjoy your day at the farm.", ["Unity", "Mobile", "Professional"]));  
 
-TopProjects.push(new project("Sheppy The Dog: Quest!", "2018", "img/sheppy-quest/0.png", "http://babyowl.studio/sheppy-quest/", "Help Sheppy guide the scattered sheep and complete quests to gain bones!", ["Unity", "Mobile", "Professional"]));   
+TopProjects.push(new project("Sheppy The Dog: Quest!", "2018", "img/sheppy-quest/0.png", "https://www.behance.net/gallery/70381037/Sheppy-the-Dog-Quest", "Help Sheppy guide the scattered sheep and complete quests to gain bones!", ["Unity", "Mobile", "Professional"]));   
 
 TopProjects.push(new project("My Little Mjolnir", "2018", "img/my-little-mjolnir/0.png", "https://www.youtube.com/watch?v=9Eg3BZ2TX7w", " In his last fight, Thor loose his powers while it's surrounded by ice giants. To survive he must defeat them using only his magic hammer: Mjolnir.", ["Unity", "RV", "University"]));  
 
