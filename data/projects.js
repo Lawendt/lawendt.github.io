@@ -12,6 +12,8 @@ TopProjects = [];
 
 // Stared Projects
 
+TopProjects.push(new project("Wonderbox: The Adventure Maker", "TBA", "img/wonderbox/hero.jpg", "https://playwonderbox.com/", "Wonderbox is an action-adventure maker where you can create, play, and share endless adventures. Coming soon to Apple Arcade", ["Unreal", "Mobile", "Professional"]));
+
 TopProjects.push(new project("Star Botanist", "2019", "img/star-botanist/0.png", "https://www.behance.net/gallery/76301843/Star-Botanist", "An adventure through an alien and mysterious planet", ["Unity", "Mobile", "Professional"]));
 
 TopProjects.push(new project("Bagaço", "2019", "img/bagaco/title.png", "https://lawendt.itch.io/bagaco", "Experimental game which uses photomontage (collage) and vignettes as a form of expressing feelings and outflow.", ["Unity", "Personal", "University"]));
@@ -28,7 +30,6 @@ TopProjects.push(new project("Sheppy The Dog: Quest!", "2018", "img/sheppy-quest
 
 TopProjects.push(new project("My Little Mjolnir", "2018", "img/my-little-mjolnir/0.png", "https://www.youtube.com/watch?v=9Eg3BZ2TX7w", " In his last fight, Thor loose his powers while it's surrounded by ice giants. To survive he must defeat them using only his magic hammer: Mjolnir.", ["Unity", "RV", "University"]));  
 
-TopProjects.push(new project("Atomic Rocket Arena", "2017", "img/rocketArena_.png", "https://play.google.com/store/apps/details?id=com.AtomicRocket.AtomicRocketArena&hl=pt_BR", "Multiplayer of spaceships which players use the same cellphone to battle each other.", ["Unity", "Mobile", "Professional"]));   
 
 
 
@@ -41,6 +42,9 @@ for(var i in TopProjects) {
 //TODO: add Laser
 
 //TODO: add Game from animation project
+
+Projects.push(new project("Atomic Rocket Arena", "2017", "img/rocketArena_.png", "https://play.google.com/store/apps/details?id=com.AtomicRocket.AtomicRocketArena&hl=pt_BR", "Multiplayer of spaceships which players use the same cellphone to battle each other.", ["Unity", "Mobile", "Professional"]));   
+
 
 Projects.push(new project("Present Aliens", "2016", "img/present-aliens_.png", "https://lawendt.itch.io/present-aliens", "Be like a proper alien and build things for humans!", ["Javascript", "Jam", "University"])); 
 
