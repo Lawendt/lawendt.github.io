@@ -23,9 +23,9 @@ TopProjects.push(new project("Funda Simulator", "2017", "img/FundaSimulator.png"
 
 TopProjects.push(new project("Cozy", "2019", "img/cozy/0.png", "https://twinravens.itch.io/cozy", "From fireplace to fireplace, you search for a home", ["Unity", "Jam"]));
 
-TopProjects.push(new project("Angry Pucks", "2018", "img/angry-pucks_.png", "https://babyowlstudios.com/angry-pucks/", "Angry Pucks is a game about pucks that are angry and want you to PUCK OFF!", ["Unity", "Mobile", "Professional"]));   
+TopProjects.push(new project("Angry Pucks", "2018", "img/angry-pucks_.png", "https://www.youtube.com/watch?v=HzRgeR6JSjc", "Angry Pucks is a game about pucks that are angry and want you to PUCK OFF!", ["Unity", "Mobile", "Professional"]));   
 
-TopProjects.push(new project("Sheppy The Dog", "2016", "img/sheppy.png", "https://play.google.com/store/apps/details?id=com.babyowl.sheppythedog", "Help a charismatic dog to herd the sheep back to the barn and enjoy your day at the farm.", ["Unity", "Mobile", "Professional"]));  
+TopProjects.push(new project("Sheppy The Dog", "2016", "img/sheppy.png", "https://www.youtube.com/watch?v=EL2cYiGDQfo", "Help a charismatic dog to herd the sheep back to the barn and enjoy your day at the farm.", ["Unity", "Mobile", "Professional"]));  
 
 TopProjects.push(new project("Sheppy The Dog: Quest!", "2018", "img/sheppy-quest/0.png", "https://www.behance.net/gallery/70381037/Sheppy-the-Dog-Quest", "Help Sheppy guide the scattered sheep and complete quests to gain bones!", ["Unity", "Mobile", "Professional"]));   
 
@@ -64,7 +64,7 @@ Projects.push(new project("2 Roll", "2015", "img/2Roll_.jpg", "https://lawendt.i
 
 Projects.push(new project("Party Hats", "2017", "img/partyhats_.png", "https://twinravens.itch.io/party-hats", "Local multiplayer arcade where players fight each other to see which hat is the coolest.", ["Unity", "University"]));
 
-Projects.push(new project("Element Cycle", "2018", "img/ElementCycle.png", "https://globalgamejam.org/2018/games/element-cycle", "Couch arena game about absorbing elements from the battleground and transmitting it to others players.", ["Unity", "Jam"]));
+// Projects.push(new project("Element Cycle", "2018", "img/ElementCycle.png", "https://globalgamejam.org/2018/games/element-cycle", "Couch arena game about absorbing elements from the battleground and transmitting it to others players.", ["Unity", "Jam"]));
 
 Projects.push(new project("Olympic S.S. Idol Festival", "2015", "img/OlympicSS_.jpg", "https://www.behance.net/gallery/27995525/Olympic-SS-Idol-Festival", "First game developed. A rythim game based on Love Live!", ["C++", "University"]));
 
