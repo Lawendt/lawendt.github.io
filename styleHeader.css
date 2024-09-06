@@ -79,6 +79,16 @@ nav a:hover{
      
 }
 
+svg {
+    width: 32px;
+    vertical-align: -0.125em;
+}
+
+svg:hover {
+    fill: #DE4949;
+}
+  
+
 .textContact {
     display: inline-block;
     vertical-align: middle;
