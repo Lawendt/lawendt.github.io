@@ -13,7 +13,7 @@ TopProjects = [];
 // Stared Projects
 
 // TODO: make it beautiful to add : The Adventure Maker
-TopProjects.push(new project("Wonderbox", "2021", "img/wonderbox/hero.jpg", "https://playwonderbox.com/", "Wonderbox is an action-adventure maker where you can create, play, and share endless adventures. Coming soon to Apple Arcade", ["Unreal", "Mobile", "Professional"]));
+TopProjects.push(new project("Wonderbox", "2021", "img/wonderbox/hero.jpg", "https://playwonderbox.com/", "Wonderbox is an action-adventure maker where you can create, play, and share endless adventures. Released on Apple Arcade", ["Unreal", "Mobile", "Professional"]));
 
 TopProjects.push(new project("Star Botanist", "2019", "img/star-botanist/0.png", "https://www.behance.net/gallery/76301843/Star-Botanist", "An adventure through an alien and mysterious planet", ["Unity", "Mobile", "Professional"]));
 
