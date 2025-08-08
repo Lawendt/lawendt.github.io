@@ -3,9 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
+		
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+
+		 <!--twitter -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@la_wendt" />
+        <meta name="twitter:creator" content="@la_wendt" />
+
 
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		<meta name="generator" content="{{ eleventy.generator }}">
@@ -22,53 +31,78 @@
 		#}
 
 		{#- Add CSS to the bundle #}
-		<style>/* This is an arbitrary CSS string added to the bundle */</style>
+		<style>
+			/* This is an arbitrary CSS string added to the bundle */
+		</style>
 
 		{#- Add the contents of a file to the bundle #}
-		<style>{% include "css/index.css" %}</style>
+		<style>
+			{% include "css/index.css" %}
+		</style>
 
 		{#- Or you can add from node_modules #}
 		{# <style>{% include "node_modules/something.css" %}</style> #}
 
 		{#- Render the CSS bundle using inlined CSS (for the fastest site performance in production) #}
-		<style>{% getBundle "css" %}</style>
+		<style>
+			{% getBundle "css" %}
+		</style>
 
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
 
 		{#- Add the heading-anchors web component to the JavaScript bundle #}
-		<script type="module">{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}</script>
+		<script type="module">
+			{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}
+		</script>
 	</head>
 	<body>
-		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
+		<div class="layout">
+			<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
 
-		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
+			<header>
+				<div class="header-content">
+					<div class="header-title">
+						<a href="/" class="home-link">{{ metadata.title }}</a>
+					</div>
 
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
-				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				{%- endfor %}
-				</ul>
-			</nav>
-		</header>
+				</div>
+			</header>
 
-		<main id="main">
-			<heading-anchors>
-				{{ content | safe }}
-			</heading-anchors>
-		</main>
+			<aside class="left-sidebar">
 
-		<footer>
-			<p>
-				<em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em>
-			</p>
-		</footer>
+				{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+				<div class="sidebar-section">
+					<nav>
+						<h2 class="visually-hidden">Top level navigation menu</h2>
+						<ul class="nav">
+							{%- for entry in collections.all | eleventyNavigation %}
+								<li class="nav-item">
+									<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+								</li>
+							{%- endfor %}
+						</ul>
+					</nav>
 
-		<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
-		<script type="module" src="{% getBundleFileUrl "js" %}"></script>
+				</div>
+
+			</aside>
+
+			<main id="main">
+				<heading-anchors>
+					{{ content | safe }}
+				</heading-anchors>
+			</main>
+
+			<footer>
+				<p>
+					<em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a>
+					</em>
+				</p>
+			</footer>
+
+			<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
+			<script type="module" src="{% getBundleFileUrl "js" %}"></script>
+		</div>
 	</body>
 </html>
