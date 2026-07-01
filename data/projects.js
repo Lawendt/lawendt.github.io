@@ -12,7 +12,7 @@ TopProjects = [];
 
 // Stared Projects
 
-TopProjects.push(new project("Beastro", "2026", "img/Beastro/hero.jpg", "https://www.beastro.game/", "Beastro is a cozy culinary adventure where the fate of the world rests on what's for dinner! Released on Steam, PS5, Xbox (with gamepass)", ["Unreal", "Console", "Professional"]));
+TopProjects.push(new project("Beastro", "2026", "img/Beastro/heroBeastro.jpg", "https://www.beastro.game/", "Beastro is a cozy culinary adventure where the fate of the world rests on what's for dinner! Released on Steam, PS5, Xbox (with gamepass)", ["Unreal", "Console", "Professional"])); 
 
 // TODO: make it beautiful to add : The Adventure Maker
 TopProjects.push(new project("Wonderbox", "2021", "img/wonderbox/hero.jpg", "https://www.youtube.com/watch?v=qy8e6t-KgE8", "Wonderbox is an action-adventure maker where you can create, play, and share endless adventures. Released on Apple Arcade", ["Unreal", "Mobile", "Professional"]));
