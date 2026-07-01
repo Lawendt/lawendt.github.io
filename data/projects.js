@@ -12,8 +12,10 @@ TopProjects = [];
 
 // Stared Projects
 
+TopProjects.push(new project("Beastro", "2026", "img/beastro/hero.jpg", "https://www.beastro.game/", "Beastro is a cozy culinary adventure where the fate of the world rests on what's for dinner! Released on Steam, PS5, Xbox (with gamepass)", ["Unreal", "Console", "Professional"]));
+
 // TODO: make it beautiful to add : The Adventure Maker
-TopProjects.push(new project("Wonderbox", "2021", "img/wonderbox/hero.jpg", "https://playwonderbox.com/", "Wonderbox is an action-adventure maker where you can create, play, and share endless adventures. Released on Apple Arcade", ["Unreal", "Mobile", "Professional"]));
+TopProjects.push(new project("Wonderbox", "2021", "img/wonderbox/hero.jpg", "https://www.youtube.com/watch?v=qy8e6t-KgE8", "Wonderbox is an action-adventure maker where you can create, play, and share endless adventures. Released on Apple Arcade", ["Unreal", "Mobile", "Professional"]));
 
 TopProjects.push(new project("Star Botanist", "2019", "img/star-botanist/0.png", "https://www.behance.net/gallery/76301843/Star-Botanist", "An adventure through an alien and mysterious planet", ["Unity", "Mobile", "Professional"]));
 
@@ -29,7 +31,6 @@ TopProjects.push(new project("Sheppy The Dog", "2016", "img/sheppy.png", "https:
 
 TopProjects.push(new project("Sheppy The Dog: Quest!", "2018", "img/sheppy-quest/0.png", "https://www.behance.net/gallery/70381037/Sheppy-the-Dog-Quest", "Help Sheppy guide the scattered sheep and complete quests to gain bones!", ["Unity", "Mobile", "Professional"]));   
 
-TopProjects.push(new project("My Little Mjolnir", "2018", "img/my-little-mjolnir/0.png", "https://www.youtube.com/watch?v=9Eg3BZ2TX7w", " In his last fight, Thor loose his powers while it's surrounded by ice giants. To survive he must defeat them using only his magic hammer: Mjolnir.", ["Unity", "RV", "University"]));  
 
 
 
@@ -39,6 +40,8 @@ Projects = [];
 for(var i in TopProjects) {
     Projects.push(TopProjects[i]);
 }
+
+Projects.push(new project("My Little Mjolnir", "2018", "img/my-little-mjolnir/0.png", "https://www.youtube.com/watch?v=9Eg3BZ2TX7w", " In his last fight, Thor loose his powers while it's surrounded by ice giants. To survive he must defeat them using only his magic hammer: Mjolnir.", ["Unity", "RV", "University"]));  
 
 //TODO: add Laser
 
