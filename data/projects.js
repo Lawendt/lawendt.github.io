@@ -17,7 +17,7 @@ TopProjects.push(new project("Beastro", "2026", "img/Beastro/heroBeastro.jpg", "
 // TODO: make it beautiful to add : The Adventure Maker
 TopProjects.push(new project("Wonderbox", "2021", "img/wonderbox/hero.jpg", "https://www.youtube.com/watch?v=qy8e6t-KgE8", "Wonderbox is an action-adventure maker where you can create, play, and share endless adventures. Released on Apple Arcade", ["Unreal", "Mobile", "Professional"]));
 
-TopProjects.push(new project("Star Botanist", "2019", "img/star-botanist/0.png", "https://www.behance.net/gallery/76301843/Star-Botanist", "An adventure through an alien and mysterious planet", ["Unity", "Mobile", "Professional"]));
+TopProjects.push(new project("Star Botanist", "2019", "img/star-botanist/0.png", "https://www.youtube.com/watch?v=-EhzvY7CKKs", "An adventure through an alien and mysterious planet", ["Unity", "Mobile", "Professional"]));
 
 TopProjects.push(new project("Bagaço", "2019", "img/bagaco/title.png", "https://lawendt.itch.io/bagaco", "Experimental game which uses photomontage (collage) and vignettes as a form of expressing feelings and outflow.", ["Unity", "Personal", "University"]));
 
