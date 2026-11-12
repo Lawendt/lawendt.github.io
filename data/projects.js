@@ -29,7 +29,7 @@ TopProjects.push(new project("Angry Pucks", "2018", "img/angry-pucks_.png", "htt
 
 TopProjects.push(new project("Sheppy The Dog", "2016", "img/sheppy.png", "https://www.youtube.com/watch?v=EL2cYiGDQfo", "Help a charismatic dog to herd the sheep back to the barn and enjoy your day at the farm.", ["Unity", "Mobile", "Professional"]));  
 
-TopProjects.push(new project("Sheppy The Dog: Quest!", "2018", "img/sheppy-quest/0.png", "https://www.behance.net/gallery/70381037/Sheppy-the-Dog-Quest", "Help Sheppy guide the scattered sheep and complete quests to gain bones!", ["Unity", "Mobile", "Professional"]));   
+TopProjects.push(new project("Sheppy The Dog: Quest!", "2018", "img/sheppy-quest/0.png", "https://www.youtube.com/watch?v=qs7rWh_e32s", "Help Sheppy guide the scattered sheep and complete quests to gain bones!", ["Unity", "Mobile", "Professional"]));   
 
 
 
